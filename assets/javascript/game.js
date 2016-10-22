@@ -88,10 +88,10 @@ var gameObject = {
 document.onkeyup = function(evaluate) {
     if (gameObject.selectedAnswer === '') {
         gameObject.beginPlay();
-    } else if ((gameObject.gameWon || gameObject.gameLost) === true){
+    } else if ((gameObject.gameDone === true){
         gameObject.restart();
     } else {
-        gameObject.gamePlaySession(evaluate);
+        gameObject.letterPressEvent(event);
     };
 
 }
