@@ -1,8 +1,11 @@
-* {
+*, p {
 	box-sizing: border-box;
+	font-family: Verdana, 'Geneva', serif;
+	font-size: 1.8em;
+	font-weight: normal;
 }
 body {
-	background: url("../images/tibet.jpg");
+	background-image: url("../images/tibet.jpg");
 }
 
 #header {
@@ -13,16 +16,10 @@ body {
 	margin: 5% 10% 10% 10%;
 	background-color: #FFF;
 	padding: 50px 50px;
-	position: relative;
+	position: absolute;
 }
 
 .game-details {
 	margin-top: 200px;
 	text-align: right;
-}
-
-p {
-	font-family: Verdana, 'Geneva', serif;
-	font-size: 1.8em;
-	font-weight: normal;
 }

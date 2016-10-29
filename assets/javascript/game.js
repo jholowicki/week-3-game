@@ -18,7 +18,7 @@ var gameObject = {
 	gameDone: false,
 	guessesEmpty: false,
 	random: function(){
-		this.selectedAnswer = this.answers[Math.floor((Math.random()*(answers.length-1)))];
+		this.selectedAnswer = this.answers[Math.floor((Math.random()*(this.answers.length-1)))];
 	},
 	promptOfUnderscores: function(){
 		for (var i = 0; i < this.selectedAnswer.length; i++) {
