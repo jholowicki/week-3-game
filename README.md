@@ -11,7 +11,7 @@ HTML/CSS/Vanilla Javascript
 jQuery
 
 
-![]()
+
 
 ## Installation
 
